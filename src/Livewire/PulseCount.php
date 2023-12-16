@@ -27,7 +27,7 @@ class PulseCount extends Card
         });
 
         if (Livewire::isLivewireRequest()) {
-            $this->dispatch('usage-hours-update', count: $count);
+            $this->dispatch('count-update', count: $count);
         }
 
         return View::make('pulse-count::livewire.usage-count', [
