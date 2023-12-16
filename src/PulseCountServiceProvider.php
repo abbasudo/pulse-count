@@ -24,7 +24,7 @@ class PulseCountServiceProvider extends PackageServiceProvider
         $this->loadViewsFrom(__DIR__ . '/../resources/views', 'pulse-count');
 
         $this->callAfterResolving('livewire', function (LivewireManager $livewire, Application $app) {
-            $livewire->component('pulse.usage-count', PulseCount::class);
+            $livewire->component('pulse.count', PulseCount::class);
         });
     }
 }
