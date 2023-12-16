@@ -3,6 +3,8 @@
 
     <livewire:pulse.usage cols="4" rows="2" />
 
+    <livewire:pulse.usage-count cols="2" rows="1" />
+
     <livewire:pulse.queues cols="4" />
 
     <livewire:pulse.cache cols="4" />
